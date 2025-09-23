@@ -27,6 +27,8 @@ This repository contains Java projects developed to practice and demonstrate cor
 
 ### 2. **Car ShowRoom Mangement** ✅
 - **Folder:** showroom-management-system/
+<pre>
+showroom-management-system/
 ├── ShowroomManagement/
 │   ├── Main.java           # Main application entry point
 │   ├── Showroom.java       # Base showroom class
@@ -35,6 +37,8 @@ This repository contains Java projects developed to practice and demonstrate cor
 │   └── utility            # Interface for common methods
 ├── README.md
 └── LICENSE
+</pre>
+
 - **Description:** A comprehensive showroom management system that handles automotive dealership operations including showroom registration, employee management, and car inventory tracking through an interactive console interface
 - **OOPs Concepts Used:**
   - **Encapsulation:** Private data members in Showroom, Employee, and Cars classes with controlled access through get_details() and set_details() methods
