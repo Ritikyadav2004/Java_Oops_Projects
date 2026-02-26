@@ -55,12 +55,12 @@ public class PizzaPriceGenrator {
 
             if(isOptedFortakeaway)
             {
-                bill+="Extra Topping Added :" +takeAway+"\n";
+                bill+="takeaway charge :" +takeAway+"\n";
             }
 
             if(isExtracheeseAdded)
             {
-                bill+="Extra Topping Added :" +extraCheese+"\n";
+                bill+="Extra Cheese:" +extraCheese+"\n";
             }
 
             bill+="Bill "+this.price +'\n';
@@ -95,7 +95,7 @@ static class DeluxPizza extends pizza
         // p1.addextraToppings();
         // p1.addtakeaway();
         // p1.getBill();
-        DeluxPizza dp = new DeluxPizza(false);
+        DeluxPizza dp = new DeluxPizza(true);
         dp.addextraCheese();
         dp.addextraToppings(); // not work
         dp.addtakeaway();
