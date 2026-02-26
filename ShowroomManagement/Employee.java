@@ -25,7 +25,7 @@ public class Employee  extends Showroom {
        System.out.println("************************************ ***   ENTER EMPLOYEE DETAILS  *** ************************************");
        System.out.print("EMPLOYEE NAME :");
        emp_name = sc.nextLine();
-    //    System.out.println("EMPLOYEE ID :");
+    // System.out.println("EMPLOYEE ID :");
        UUID vvid = UUID.randomUUID();
        emp_id = String.valueOf(vvid);
        System.out.print("EMPLOYEE DEPARTMENT :");
