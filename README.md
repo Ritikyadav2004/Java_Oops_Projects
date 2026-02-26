@@ -49,7 +49,7 @@ showroom-management-system/
   - Showroom Management
   - Employee Management
   - Car Inventory System
-  - nteractive Console Interface
+  - Interactive Console Interface
 
 
 
