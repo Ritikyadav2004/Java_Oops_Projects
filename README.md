@@ -25,6 +25,33 @@ This repository contains Java projects developed to practice and demonstrate cor
   - Bill generation and printing
   - Total amount calculation
 
+### 2. **Car ShowRoom Mangement** ✅
+- **Folder:** showroom-management-system/
+<pre>
+showroom-management-system/
+├── ShowroomManagement/
+│   ├── Main.java           # Main application entry point
+│   ├── Showroom.java       # Base showroom class
+│   ├── Employee.java       # Employee management class  
+│   ├── Cars.java          # Car inventory class
+│   └── utility            # Interface for common methods
+├── README.md
+└── LICENSE
+</pre>
+
+- **Description:** A comprehensive showroom management system that handles automotive dealership operations including showroom registration, employee management, and car inventory tracking through an interactive console interface
+- **OOPs Concepts Used:**
+  - **Encapsulation:** Private data members in Showroom, Employee, and Cars classes with controlled access through get_details() and set_details() methods
+  - **Inheritance:**Employee and Cars classes extend the base Showroom class, inheriting common attributes and behaviors
+  - **Abstraction:** utility interface defines abstract methods (get_details() and set_details()) that must be implemented by all classes
+  - **Polymorphism**: Method overriding where each class provides its own specific implementation of inherited abstract methods
+- **Features:**
+  - Showroom Management
+  - Employee Management
+  - Car Inventory System
+  - nteractive Console Interface
+
+
 
 
 
@@ -32,8 +59,7 @@ This repository contains Java projects developed to practice and demonstrate cor
 - **Student Management System**
 - **Library Management System**
 - **Banking Application**
-- **Employee Payroll System**
-- **Inventory Management System**
+
 
 ## 🔧 Prerequisites
 - **Java JDK 8** or higher
