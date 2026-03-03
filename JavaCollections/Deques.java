@@ -8,7 +8,7 @@ public class Deques {
         deck.offer(1);
         deck.offer(2);
         deck.offer(3);
-        System.out.println(deck);
+        System.out.println(deck);     
         deck.offerLast(4);
         System.out.println(deck);
         deck.offerFirst(0);
