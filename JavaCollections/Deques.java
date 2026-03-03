@@ -4,6 +4,7 @@ public class Deques {
     public static void main(String[] args)
     {
         Deque<Integer> deck= new LinkedList<>();
+        // Deque<Integer>  deck = new ArrayDeque<>(); // ANOTHER WAY OF DECLARING THE DEQUE
         deck.offer(1);
         deck.offer(2);
         deck.offer(3);
