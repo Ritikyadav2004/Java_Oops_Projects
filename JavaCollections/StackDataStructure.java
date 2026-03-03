@@ -1,5 +1,4 @@
 package JavaCollections;
-import java.util.*;
 import java.util.Stack;
 
 public class StackDataStructure {
