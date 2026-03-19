@@ -3,7 +3,8 @@ package BinarySearch;
 public class MiniMumAbsDifference {
 
     public static void MinimumDiff(int arr[],int target)
-    {
+    {   
+         if (arr.length==0) return;
         int start=0;
         int end=arr.length-1;
         // int res=-1;
