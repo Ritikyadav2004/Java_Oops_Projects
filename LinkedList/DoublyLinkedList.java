@@ -2,13 +2,15 @@ package LinkedList;
 
 public class DoublyLinkedList {
 
-    int size=0;
+    int size;
     Node<Integer> head=new Node<>();
+    Node<Integer> tail=new Node<>();
 
     DoublyLinkedList()
     {
-        head.next=null;
-        head.prev=null;
+        this.head=null;
+        this.tail=null;
+        this.size=0;
     }
     public static void main(String[] args) {
         DoublyLinkedList obj = new DoublyLinkedList();
@@ -29,18 +31,22 @@ public class DoublyLinkedList {
             head=temp;
             size++;
             System.out.println("First Element inserted");
+            tail=temp;
+            return;
+            
         }
         temp.next=head;
         head.prev=temp;
         head=temp;
+        // tail=temp; 1 st head last me jayega so 1 node bs tail hogi
        size++;
+      
     }
 
     void printLinkedListFromNextPoninter()
     {
-        Node<Integer> temp =new Node<>();
-        temp=head;
-        while(temp.next!=null)
+        Node<Integer> temp =head;
+        while(temp!=null)
         {
             System.out.print(temp.data+" ");
             temp=temp.next;
@@ -50,17 +56,26 @@ public class DoublyLinkedList {
 
     void printLinkedListFromPrevPoninter()
     {
-        Node<Integer> temp =new Node<>();
-        temp=head;
-        while(temp.next.next!=null)
-        {
-           temp=temp.next;
-        }
+        // Node<Integer> temp =new Node<>();
+        // temp=head;
+        // while(temp.next!=null)
+        // {
+        //    temp=temp.next;
+        // }
+        // while(temp!=null)
+        // {
+        //     System.out.print(temp.data+" ");
+        //     temp=temp.prev;
+        // }
+        Node<Integer> temp= tail;
+        
         while(temp!=null)
         {
+
             System.out.print(temp.data+" ");
             temp=temp.prev;
         }
+
             
     }
 
