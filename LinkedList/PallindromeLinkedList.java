@@ -1,3 +1,5 @@
+// Problem : https://leetcode.com/problems/palindrome-linked-list/
+// Soltuion : https://www.youtube.com/watch?v=uXB8S875uyw&list=PLQ7ZAf76c0ZPqu_4KHicqxtJRaV2meb7x&index=148
 package LinkedList;
 
 public class PallindromeLinkedList {
