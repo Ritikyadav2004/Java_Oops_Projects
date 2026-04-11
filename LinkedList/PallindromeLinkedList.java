@@ -38,7 +38,7 @@ public class PallindromeLinkedList {
                 newHead=node;
             }
         }
-        // SLow ek peeche rehata he 
+        // SLow ek peeche rehata he  odd vali LL me 
         if(fast!=null)
         {
             slow=slow.next;
