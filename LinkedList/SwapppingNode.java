@@ -10,7 +10,7 @@ public class SwapppingNode {
         Node prev=null;
         while(first!=null && first.next!=null)
         {
-            Node second=first.next;
+            Node second=first.next;      
             first.next=second.next;
             second.next=first;
             if(prev==null)// mean prev starting me he 
