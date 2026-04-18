@@ -1,4 +1,4 @@
-Dua-pointer technique ek popular algorithm hai. Isme hum do pointers (ya variables) ko ek hi data structure par use karte hain, jaise ki array ya linked list. Ek pointer aage badhta hai aur doosra peeche ya alag speed se. Ye technique especially tab kaam aati hai jab hume do elements ko ek saath process karna hota hai, jaise ki sorting ya searching mein. Isse time complexity kaafi kam ho jaati hai.
+two-pointer technique ek popular algorithm hai. Isme hum do pointers (ya variables) ko ek hi data structure par use karte hain, jaise ki array ya linked list. Ek pointer aage badhta hai aur doosra peeche ya alag speed se. Ye technique especially tab kaam aati hai jab hume do elements ko ek saath process karna hota hai, jaise ki sorting ya searching mein. Isse time complexity kaafi kam ho jaati hai.
 <br>
 
 <br>
