@@ -16,7 +16,7 @@ public class BFStraversel {
                 right=null;
             }
     }
-
+                 
     public static void main(String[] args) {
         
     }
@@ -36,7 +36,7 @@ public class BFStraversel {
                 }
                 if(node.right!=null)
                 {
-                    queue.offer(node.right);
+                  queue.offer(node.right);
                 }
             }
         
