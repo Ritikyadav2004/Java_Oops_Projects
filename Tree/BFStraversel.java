@@ -37,9 +37,9 @@ public class BFStraversel {
                 if(node.right!=null)
                 {
                   queue.offer(node.right);
-                }
+                }                                   
             }
         
-        return res;
+     return res;
     }
 }
