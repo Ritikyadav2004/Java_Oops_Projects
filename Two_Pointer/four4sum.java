@@ -48,7 +48,7 @@ public class four4sum {
              }
 
         }
-        System.out.println(list);
+        System.out.println(list);                                   
 
     }
 }
