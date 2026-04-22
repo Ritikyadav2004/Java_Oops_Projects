@@ -53,6 +53,18 @@ public class FoundationQestion {
         }
         return c;
     }
+
+
+    public static int factorial(int n)
+    {
+        if(n==1|| n==0)
+        {
+              return n;
+        }
+
+        return n*factorial(n-1);
+
+    }
     public static void main(String[] args) {
         
         printOneToN(10);
@@ -60,5 +72,6 @@ public class FoundationQestion {
         printNtoOne(10);
         System.out.println(fiboacci(15));
         System.out.println(fiboacciUsingLoop(15));
+        System.out.println(factorial(5));
     }
 }
