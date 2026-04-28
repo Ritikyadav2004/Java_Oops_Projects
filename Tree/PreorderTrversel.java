@@ -19,7 +19,7 @@ public class PreorderTrversel
           this.right = right;
       }
   } 
-
+// REVISING THE CONCEPT
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> arr = new ArrayList<>();
         if(root==null) return arr;
@@ -41,7 +41,7 @@ public class PreorderTrversel
                 stack.push(node.left);
             }
         }
-
+                                                     
         return arr;
 
     }

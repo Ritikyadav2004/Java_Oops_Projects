@@ -12,13 +12,13 @@ public class InorderTraversal {
       TreeNode() {}
       TreeNode(int val) { this.val = val; }
       TreeNode(int val, TreeNode left, TreeNode right) {
-          this.val = val;
+          this.val = val;   
           this.left = left;
           this.right = right;
       }
   }
  
-
+//REVISING THE CONCEPT
     public List<Integer> inorderTraversal(TreeNode root) {
         ArrayList<Integer> res= new ArrayList<>();
         Stack<TreeNode> stack= new Stack<>();
