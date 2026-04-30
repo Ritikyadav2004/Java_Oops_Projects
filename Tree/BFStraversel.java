@@ -20,7 +20,7 @@ public class BFStraversel {
     public static void main(String[] args) {
         
     }
-
+// revising this concept
     public ArrayList<Integer> BFS(TreeNode<Integer> root)
     {
         ArrayList<Integer> res= new ArrayList<>();
