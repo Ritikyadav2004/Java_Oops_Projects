@@ -19,6 +19,8 @@ public class HeightOfBinaryTree
     }
 
     // Insert element in Binary Search Tree
+
+    //  first we have to craete a tree then only we can find
     public node insert(node root, int val) {
         if (root == null) {
             return new node(val);
@@ -34,6 +36,7 @@ public class HeightOfBinaryTree
     }
 
     // Calculate height of tree
+    // the main intention fo this Question
     public int getHeight(node root)
     {
         if(root==null) return 0;
@@ -43,7 +46,9 @@ public class HeightOfBinaryTree
 
         return 1+ Math.max(left, right);
     }
+    
 
+    // possible Traversel Types DFS
     // In-order traversal (Left, Root, Right)
     public void inorder(node root) {
         if (root == null) return;
