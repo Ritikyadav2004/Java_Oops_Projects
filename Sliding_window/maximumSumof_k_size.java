@@ -21,7 +21,8 @@ public class maximumSumof_k_size {
             maxsum = Math.max(maxsum, currentSum);
             currentSum-=arr[left];// removung last elemnt 
             left++;//moving window further
-            right++;
+            right++; 
+            // revsiing Sliding windoe
            
         }
         System.out.println(maxsum);

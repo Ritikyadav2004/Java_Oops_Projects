@@ -35,5 +35,6 @@ public class permutation {
         permutation obj = new permutation();
         System.out.println(obj.checkInclusion(s1, s2));
     }
+    // revesing the concept
 }
 

@@ -14,7 +14,7 @@ public class maxSum {
             int number = arr[right];
             count[number]++;// calcaulating the count of that number in my count array
             currentSum+=arr[right];
-           while(count[number]>1)//shrink if valu repeated
+           while(count[number]>1)//shrink if value repeated 
            {
             count[arr[left]]--;
             currentSum-=arr[left];
