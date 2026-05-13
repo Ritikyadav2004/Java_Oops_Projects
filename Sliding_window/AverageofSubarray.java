@@ -16,7 +16,7 @@ public class AverageofSubarray {
             sum+=arr[right];
             System.out.println("Average of "+j+" Subarray is :"+sum/(float)k);
             j++;
-            sum-=arr[left];//removi9ng the addition of 1st elemnt 
+            sum-=arr[left];//removiong the addition of 1st elemnt 
             left++;// sliding our window
             right++;
         }
