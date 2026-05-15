@@ -24,12 +24,12 @@ public class firstNegativeNumber
      for(int i=1;i<n-k+1;i++)
       {
         // remove the element if it is negative
-        if(arr[i-1]<0)
+        if(arr[i-1]<0) // if negative  then poll
         {
          queue.poll();  
         }
 
-        if(arr[i+k-1]<0)
+        if(arr[i+k-1]<0) // if negetaive then insert 
         {
             //upcommig value is negative then add 
             queue.offer(arr[i+k-1]);
