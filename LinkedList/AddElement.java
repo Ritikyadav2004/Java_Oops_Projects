@@ -19,7 +19,7 @@ public class ListNode {
             int val1 =(l1!=null ?l1.val:0);
             int val2 =(l2!=null ?l2.val:0);
             int sum=val1+val2+carry;
-            ListNode newNode= new ListNode(sum%10);
+            ListNode newNode= new ListNode(sum%10);    
             carry=sum/10;
             if(head==null)
             {
