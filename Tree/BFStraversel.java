@@ -21,6 +21,8 @@ public class BFStraversel {
         
     }
 // revising this concept
+
+// again starting tree datastructre basics
     public ArrayList<Integer> BFS(TreeNode<Integer> root)
     {
         ArrayList<Integer> res= new ArrayList<>();

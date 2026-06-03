@@ -43,6 +43,6 @@ public class PreorderTrversel
         }
                                                      
         return arr;
-
+// stack approach of dfs
     }
 }

@@ -14,6 +14,8 @@ public class DFStraversel {
                 right=null;
             }
     }
+
+    // Revesion as DFS trhee type in pre post can done by just recurssion
     public void Preordertraversel(TreeNode<Integer> root)
     {
         if(root==null) return;
