@@ -3,7 +3,8 @@ package Two_Pointer;
 import java.util.ArrayList;
 
 public class twoSum {
-
+    
+    // or use Arrays.sort() method
     public static int [] sort(int [] arr)
     {
           for(int i=0;i<arr.length-1;i++)
