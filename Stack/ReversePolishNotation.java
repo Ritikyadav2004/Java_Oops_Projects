@@ -19,19 +19,19 @@ public class ReversePolishNotation {
             {    
                 int num1=stack.pop();
                 int num2=stack.pop();
-                 int result=num2-num1;
-                 stack.push(result);
+                int result=num2-num1;
+                stack.push(result);
             }
             else if(tokens[i].equals("*"))
             {
-                 int result=stack.pop()*stack.pop();
+                int result=stack.pop()*stack.pop();
                 stack.push(result);
             }
             else if(tokens[i].equals("/"))
             {
                   int num1=stack.pop();
-                int num2=stack.pop();
-                 int result=num2/num1;
+                  int num2=stack.pop();
+                  int result=num2/num1;
                 
                  stack.push(result);
             }
@@ -39,7 +39,7 @@ public class ReversePolishNotation {
            }
            else 
            {
-            // mean symbole 
+            //mean numbrs
             stack.push(Integer.parseInt(tokens[i]));
            }
         }
