@@ -10,7 +10,7 @@ public class chocolateProblem {
         List<Integer>list= new ArrayList<>();
          
         int minDiff=0;
-        
+        // calculate the result upto window size-1 elemnts
         for(int i=0;i<m;i++)
         {
             list.add(arr[i]);
@@ -19,6 +19,7 @@ public class chocolateProblem {
         
         minDiff=list.get(list.size()-1)-list.get(0);
         
+        //move till len-m+1 tk 
         for(int i=1;i<arr.length-m+1;i++)
         {
             // remove previos elemnt from list
