@@ -28,7 +28,7 @@ public class BalancedBinaryTree {
 // revesion of thid problem 
      public int getHeight(TreeNode root)
      {
-        if(root==null) return 0;
+        if(root==null) return 0;   
         // apply post order trvaersel
         int leftSubtree=getHeight(root.left);
         int rightSubtree=getHeight(root.right);
