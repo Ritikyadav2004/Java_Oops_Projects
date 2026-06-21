@@ -16,13 +16,13 @@ public class DFStraversel {
     }
 
     // Revesion as DFS trhee type in pre post can done by just recurssion
-    public void Preordertraversel(TreeNode<Integer> root)
-    {
-        if(root==null) return;
-        System.out.println(root.data);
-        Preordertraversel(root.left);
-        Preordertraversel(root.right);
-    }
+        public void Preordertraversel(TreeNode<Integer> root)
+        {
+            if(root==null) return;
+            System.out.println(root.data);
+            Preordertraversel(root.left);
+            Preordertraversel(root.right);
+        }
 
     public void Postordertraversel(TreeNode<Integer> root)
     {
