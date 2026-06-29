@@ -22,7 +22,7 @@ class Solution {
     int count;
     int ans=0;
     private void inorder(TreeNode root,int k)
-    { 
+    {
         if(root==null) return ;
         
         inorder(root.left,k);
