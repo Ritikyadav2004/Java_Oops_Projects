@@ -1,5 +1,5 @@
-package Sliding_window;
-// https://www.geeksforgeeks.org/problems/chocolate-distribution-problem3825/1
+package Sliding_window.FixedWindow;
+// https://www.geeksforgeeks.org/problems/chocoglate-distribution-problem3825/1
 import java.util.*;
 public class chocolateProblem {
     

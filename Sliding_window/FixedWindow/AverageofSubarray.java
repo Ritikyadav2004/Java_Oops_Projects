@@ -1,4 +1,4 @@
-package Sliding_window;
+package Sliding_window.FixedWindow;
 public class AverageofSubarray {
     public static void main(String[] args) {
         int arr[] ={12,3,2,1,2,3,4,4};

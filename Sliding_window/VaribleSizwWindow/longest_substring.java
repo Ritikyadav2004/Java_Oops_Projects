@@ -1,4 +1,4 @@
-package Sliding_window;
+package Sliding_window.VaribleSizwWindow;
 
 public class longest_substring {
     // so we have to find a window of maximum length who does not have repeating vharacter
